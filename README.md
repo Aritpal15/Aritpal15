@@ -23,19 +23,30 @@ MCA graduate specializing in cloud computing with a strong interest in cloud and
 <b>My GitHub Stats</b>
 <br><br>
 
-<p align="left">
-  <a href="https://github.com/Aritpal15">
-    <img src="https://github-readme-stats.vercel.app/api?username=Aritpal15&show_icons=true&theme=onedark&hide_border=true&count_private=true&cache_seconds=1800" alt="Aritpal's GitHub stats" />
-  </a>
-  <a href="https://github.com/Aritpal15">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aritpal15&theme=onedark&hide_border=true&cache_seconds=1800" alt="Aritpal's GitHub streak" />
-  </a>
-</p>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <a href="https://github.com/Aritpal15">
+        <img src="https://github-readme-stats.vercel.app/api?username=Aritpal15&show_icons=true&theme=onedark&hide_border=true&count_private=true&cache_seconds=1800" alt="Aritpal's GitHub stats" />
+      </a>
+    </td>
+    <td width="20"></td>
+    <td>
+      <a href="https://github.com/Aritpal15">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aritpal15&theme=onedark&hide_border=true&cache_seconds=1800" alt="Aritpal's GitHub streak" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br>
 
-<p align="left">
-  <a href="https://github.com/Aritpal15">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=onedark&hide_border=true&cache_seconds=1800" alt="Top Languages" />
-  </a>
-</p>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <a href="https://github.com/Aritpal15">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=onedark&hide_border=true&cache_seconds=1800" alt="Top Languages" />
+      </a>
+    </td>
+  </tr>
+</table>
