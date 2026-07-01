@@ -25,27 +25,32 @@ MCA graduate specializing in cloud computing with a strong interest in cloud and
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
+    <!-- Left Card: Main Stats (Switched to stable mirror) -->
     <td>
       <a href="https://github.com/Aritpal15">
-        <img src="https://github-readme-stats.vercel.app/api?username=Aritpal15&show_icons=true&theme=onedark&hide_border=true&count_private=true&cache_seconds=1800" alt="Aritpal's GitHub stats" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=Aritpal15&show_icons=true&theme=onedark&hide_border=true&count_private=true" alt="Aritpal's GitHub stats" />
       </a>
     </td>
+    <!-- Uniform Gap Between Top Cards -->
     <td width="20"></td>
+    <!-- Right Card: Streak Tracking (Stays on Heroku, working fine) -->
     <td>
       <a href="https://github.com/Aritpal15">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aritpal15&theme=onedark&hide_border=true&cache_seconds=1800" alt="Aritpal's GitHub streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aritpal15&theme=onedark&hide_border=true" alt="Aritpal's GitHub streak" />
       </a>
     </td>
   </tr>
 </table>
 
+<!-- Uniform Vertical Gap Before Bottom Row -->
 <br>
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
+    <!-- Bottom Card: Most Used Languages (Switched to stable mirror) -->
     <td>
       <a href="https://github.com/Aritpal15">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=onedark&hide_border=true&cache_seconds=1800" alt="Top Languages" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=onedark&hide_border=true" alt="Top Languages" />
       </a>
     </td>
   </tr>
