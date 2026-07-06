@@ -35,9 +35,9 @@ MCA graduate specializing in cloud computing with a strong interest in cloud and
     <td width="20"></td>
     <!-- Right Card: Streak Tracking (Stays on Heroku, working fine) -->
     <td>
-     <a href="https://github.com/Aritpal15">
-  <img src="https://github-readme-streak-stats-tw.vercel.app/?user=Aritpal15&theme=onedark&hide_border=true" alt="Aritpal's GitHub streak" />
- </a>
+<a href="https://github.com/Aritpal15">
+  <img src="https://streak-stats.demolab.com/?user=Aritpal15&theme=onedark&hide_border=true" alt="Aritpal's GitHub streak" />
+</a>
     </td>
   </tr>
 </table>
