@@ -7,11 +7,15 @@ on:
     branches: [ main ]
   workflow_dispatch: # Allows you to run it manually
 
+# This explicitly gives the action permission to commit files back to your repo
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4 # Upgraded to v4 to clear that yellow warning too!
       
       - name: Generate Streak SVG
         run: |
