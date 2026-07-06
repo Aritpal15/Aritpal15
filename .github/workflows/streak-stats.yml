@@ -1,0 +1,25 @@
+name: Update Streak Stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # Runs automatically every day
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allows you to run it manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate Streak SVG
+        run: |
+          curl -s "https://streak-stats.demolab.com/?user=Aritpal15&theme=onedark&hide_border=true" > streak.svg
+
+      - name: Commit and Push SVG
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add streak.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update streak statistics" && git push)
