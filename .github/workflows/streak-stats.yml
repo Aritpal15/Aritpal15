@@ -17,13 +17,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4 # Upgraded to v4 to clear that yellow warning too!
       
-      - name: Generate Streak SVG
+ - name: Generate Streak SVG
         run: |
-          curl -s "https://streak-stats.demolab.com/?user=Aritpal15&theme=onedark&hide_border=true" > streak.svg
+          curl -s "https://streak-stats.demolab.com/?user=Aritpal15&theme=onedark&hide_border=true" > temp_streak.svg
+          if grep -q "Failed to retrieve contributions" temp_streak.svg; then
+            echo "GitHub API error detected; skipping update to preserve last good streak image."
+            exit 0
+          fi
+          mv temp_streak.svg streak.svg
 
       - name: Commit and Push SVG
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add streak.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update streak statistics" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update streak statistics" && git push))
