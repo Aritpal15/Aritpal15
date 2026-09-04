@@ -27,16 +27,22 @@ jobs:
 
       - name: Generate Activity Graph SVG
         run: |
-          curl -s "https://activity-graph.herokuapp.com/graph?username=Aritpal15&theme=github-compact&area=true&hide_border=false&custom_title=Aritpal's%20Contribution%20Graph" > temp_graph.svg
+          curl -s -L "https://github-readme-activity-graph.vercel.app/graph?username=Aritpal15&theme=github-compact&area=true&hide_border=false&custom_title=Aritpal's%20Contribution%20Graph" > temp_graph.svg
+          if ! grep -q "<svg" temp_graph.svg; then
+            curl -s -L "https://activity-graph.herokuapp.com/graph?username=Aritpal15&theme=github-compact&area=true&hide_border=false" > temp_graph.svg
+          fi
           if grep -q "<svg" temp_graph.svg; then
             mv temp_graph.svg activity-graph.svg
           else
-            echo "Graph fetch failed; preserving existing asset."
+            echo "Graph fetch failed; retaining existing asset if present."
           fi
 
       - name: Commit and Push Assets
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add streak.svg activity-graph.svg
+          git add streak.svg
+          if [ -f activity-graph.svg ]; then
+            git add activity-graph.svg
+          fi
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update profile graph and streak assets" && git push)
