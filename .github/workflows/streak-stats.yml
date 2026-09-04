@@ -1,4 +1,4 @@
-name: Update Streak Stats
+name: Update Stats and Graphs
 
 on:
   schedule:
@@ -20,14 +20,23 @@ jobs:
         run: |
           curl -s "https://streak-stats.demolab.com/?user=Aritpal15&theme=highcontrast&hide_border=false&border_radius=10" > temp_streak.svg
           if grep -q "Failed to retrieve contributions" temp_streak.svg; then
-            echo "GitHub API error detected; skipping update to preserve last good streak image."
-            exit 0
+            echo "GitHub API error detected; skipping streak update."
+          else
+            mv temp_streak.svg streak.svg
           fi
-          mv temp_streak.svg streak.svg
 
-      - name: Commit and Push SVG
+      - name: Generate Activity Graph SVG
+        run: |
+          curl -s "https://activity-graph.herokuapp.com/graph?username=Aritpal15&theme=github-compact&area=true&hide_border=false&custom_title=Aritpal's%20Contribution%20Graph" > temp_graph.svg
+          if grep -q "<svg" temp_graph.svg; then
+            mv temp_graph.svg activity-graph.svg
+          else
+            echo "Graph fetch failed; preserving existing asset."
+          fi
+
+      - name: Commit and Push Assets
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add streak.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update streak statistics" && git push)
+          git add streak.svg activity-graph.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update profile graph and streak assets" && git push)
