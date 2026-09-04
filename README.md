@@ -110,7 +110,7 @@ Actively seeking entry-level and associate opportunities as a **Cloud Engineer**
 ### 📈 Daily Contribution Wave
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aritpal15&theme=github-compact&area=true&hide_border=false&custom_title=Aritpal's%20Contribution%20Graph" width="100%" alt="Aritpal's Activity Graph" />
+  <img src="./activity-graph.svg" width="100%" alt="Aritpal's Activity Graph" />
 </p>
 
 ---
