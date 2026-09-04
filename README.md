@@ -25,8 +25,7 @@ I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Pyth
 <p align="left">
 
 <a href="https://aws.amazon.com/" target="_blank">
-<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
-alt="AWS"/>
+<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
 </a>
 
 </p>
@@ -36,23 +35,19 @@ alt="AWS"/>
 <p align="left">
 
 <a href="https://www.python.org/" target="_blank">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
-alt="Python"/>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 </a>
 
 <a href="https://www.gnu.org/software/bash/" target="_blank">
-<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white"
-alt="Bash"/>
+<img src="https://img.shields.io/badge/BASH-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
 </a>
 
 <a href="https://www.djangoproject.com/" target="_blank">
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"
-alt="Django"/>
+<img src="https://img.shields.io/badge/DJANGO-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
 </a>
 
 <a href="https://fastapi.tiangolo.com/" target="_blank">
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"
-alt="FastAPI"/>
+<img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
 </a>
 
 </p>
@@ -62,38 +57,31 @@ alt="FastAPI"/>
 <p align="left">
 
 <a href="https://www.docker.com/" target="_blank">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
-alt="Docker"/>
+<img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 </a>
 
 <a href="https://www.terraform.io/" target="_blank">
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"
-alt="Terraform"/>
+<img src="https://img.shields.io/badge/TERRAFORM-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
 </a>
 
 <a href="https://github.com/features/actions" target="_blank">
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"
-alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </a>
 
 <a href="https://git-scm.com/" target="_blank">
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
-alt="Git"/>
+<img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </a>
 
 <a href="https://www.linux.org/" target="_blank">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
-alt="Linux"/>
+<img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
 </a>
 
 <a href="https://nginx.org/" target="_blank">
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"
-alt="Nginx"/>
+<img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx"/>
 </a>
 
 <a href="https://code.visualstudio.com/" target="_blank">
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"
-alt="VS Code"/>
+<img src="https://img.shields.io/badge/VS_CODE-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
 </a>
 
 </p>
@@ -105,33 +93,27 @@ alt="VS Code"/>
 <p align="left">
 
 <a href="https://github.com/Aritpal15" target="_blank">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-alt="GitHub"/>
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 <a href="https://www.linkedin.com/in/arit-pal-355918220/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
 <a href="https://dev.to/aritpal15" target="_blank">
-<img src="https://img.shields.io/badge/DEV.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"
-alt="DEV Community"/>
+<img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"/>
 </a>
 
 <a href="https://discord.com/users/aritpal_47526" target="_blank">
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
-alt="Discord"/>
+<img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
 </a>
 
 <a href="https://developers.google.com/profile/u/112446710040001170551" target="_blank">
-<img src="https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white"
-alt="Google Developer Profile"/>
+<img src="https://img.shields.io/badge/GOOGLE_DEVELOPER-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer"/>
 </a>
 
 <a href="mailto:aritpal2000@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"
-alt="Email"/>
+<img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 </p>
@@ -140,36 +122,36 @@ alt="Email"/>
 
 # 📊 GitHub Stats
 
-<p align="left">
+<table>
+<tr>
+
+<td width="50%" align="center">
 
 <img
-src="https://github-readme-stats-fast.vercel.app/api?username=Aritpal15&show_icons=true&theme=radical&hide_border=false&count_private=true"
+src="https://github-readme-stats.vercel.app/api?username=Aritpal15&show_icons=true&theme=radical&hide_border=false&border_radius=8&count_private=true"
 alt="Aritpal's GitHub Stats"
 />
 
-</p>
+</td>
 
----
-
-# 🔥 GitHub Streak
-
-<p align="left">
+<td width="50%" align="center">
 
 <img
-src="https://github-readme-streak-stats.herokuapp.com/?user=Aritpal15&theme=radical&hide_border=false"
+src="https://streak-stats.demolab.com/?user=Aritpal15&theme=radical&hide_border=false&border_radius=8"
 alt="Aritpal's GitHub Streak"
 />
 
-</p>
+</td>
 
----
+</tr>
+</table>
 
-# 💻 GitHub Contributions
+<br>
 
-<p align="left">
+<p align="center">
 
 <img
-src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=radical&hide_border=false&langs_count=6"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=radical&hide_border=false&border_radius=8&langs_count=6&card_width=500"
 alt="Aritpal's Most Used Languages"
 />
 
@@ -177,25 +159,14 @@ alt="Aritpal's Most Used Languages"
 
 ---
 
-# 📈 Contribution Stats
-
-<p align="left">
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=Aritpal15&theme=react-dark&hide_border=false"
-alt="Aritpal's Contribution Graph"
-/>
-
-</p>
-
----
-
-<!-- 🐍 SNAKE ANIMATION -->
-<!-- Leave your existing snake configuration here.
-     We will modify/add the snake later. -->
+<!--
+🐍 GitHub Snake
+KEEP YOUR EXISTING SNAKE CODE HERE.
+We will redesign this later.
+-->
 
 ---
 
 <p align="center">
-  <i>Open to learning, building and contributing.</i> 
+<i>Open to learning, building and contributing.</i> 
 </p>
