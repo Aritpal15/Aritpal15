@@ -14,201 +14,188 @@ I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Pyth
 - 📫 Reach me at <a href="mailto:aritpal2000@gmail.com">aritpal2000@gmail.com</a>
 - 🌱 Currently learning <b>AWS, Terraform, Docker, GitHub Actions, Python and Linux</b>
 - 🤝 Open to <b>cloud projects, open source, contributions and collaboration</b>
-- 🌱 Always happy to learn from people with different backgrounds and experiences
+- 💡 Always interested in learning from people with different backgrounds and experiences
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 ### ☁️ Cloud
 
 <p align="left">
-  <a href="https://aws.amazon.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored-dark.svg"
-         alt="AWS"
-         title="AWS"
-         width="42"
-         height="42"/>
-  </a>
+
+<a href="https://aws.amazon.com/" target="_blank">
+<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
+alt="AWS"/>
+</a>
+
 </p>
 
 ### 💻 Languages & Frameworks
 
 <p align="left">
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
-         alt="Python"
-         title="Python"
-         width="42"
-         height="42"/>
-  </a>
 
-  <a href="https://www.gnu.org/software/bash/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash-colored.svg"
-         alt="Bash"
-         title="Bash"
-         width="42"
-         height="42"/>
-  </a>
+<a href="https://www.python.org/" target="_blank">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+alt="Python"/>
+</a>
 
-  <a href="https://fastapi.tiangolo.com/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
-         alt="FastAPI"
-         title="FastAPI"
-         width="42"
-         height="42"/>
-  </a>
+<a href="https://www.gnu.org/software/bash/" target="_blank">
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white"
+alt="Bash"/>
+</a>
 
-  <a href="https://www.djangoproject.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored-dark.svg"
-         alt="Django"
-         title="Django"
-         width="42"
-         height="42"/>
-  </a>
+<a href="https://www.djangoproject.com/" target="_blank">
+<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"
+alt="Django"/>
+</a>
+
+<a href="https://fastapi.tiangolo.com/" target="_blank">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"
+alt="FastAPI"/>
+</a>
+
 </p>
 
-### 🚀 Infrastructure & Tools
-
-<p align="left">
-  <a href="https://www.docker.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg"
-         alt="Docker"
-         title="Docker"
-         width="42"
-         height="42"/>
-  </a>
-
-  <a href="https://www.terraform.io/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
-         alt="Terraform"
-         title="Terraform"
-         width="42"
-         height="42"/>
-  </a>
-
-  <a href="https://github.com/features/actions" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"
-         alt="GitHub Actions"
-         title="GitHub Actions"
-         width="42"
-         height="42"/>
-  </a>
-
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"
-         alt="Git"
-         title="Git"
-         width="42"
-         height="42"/>
-  </a>
-
-  <a href="https://www.linux.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg"
-         alt="Linux"
-         title="Linux"
-         width="42"
-         height="42"/>
-  </a>
-
-  <a href="https://nginx.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nginx-colored.svg"
-         alt="Nginx"
-         title="Nginx"
-         width="42"
-         height="42"/>
-  </a>
-
-  <a href="https://code.visualstudio.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg"
-         alt="VS Code"
-         title="VS Code"
-         width="42"
-         height="42"/>
-  </a>
-</p>
-
----
-
-## 🌐 Connect with me
+### 🚀 Infrastructure & DevOps
 
 <p align="left">
 
-  <a href="https://github.com/Aritpal15" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg"
-         width="36"
-         height="36"
-         alt="GitHub"
-         title="GitHub"/>
-  </a>
+<a href="https://www.docker.com/" target="_blank">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
+alt="Docker"/>
+</a>
 
-  <a href="https://dev.to/aritpal15" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto-dark.svg"
-         width="36"
-         height="36"
-         alt="DEV Community"
-         title="DEV Community"/>
-  </a>
+<a href="https://www.terraform.io/" target="_blank">
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"
+alt="Terraform"/>
+</a>
 
-  <a href="https://www.linkedin.com/in/arit-pal-355918220/" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg"
-         width="36"
-         height="36"
-         alt="LinkedIn"
-         title="LinkedIn"/>
-  </a>
+<a href="https://github.com/features/actions" target="_blank">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"
+alt="GitHub Actions"/>
+</a>
 
-  <a href="https://discord.com/users/aritpal_47526" target="_blank">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg"
-         width="36"
-         height="36"
-         alt="Discord"
-         title="Discord"/>
-  </a>
+<a href="https://git-scm.com/" target="_blank">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
+alt="Git"/>
+</a>
 
-  <a href="https://developers.google.com/profile/u/112446710040001170551" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
-         width="36"
-         height="36"
-         alt="Google Developer Program"
-         title="Google Developer Program"/>
-  </a>
+<a href="https://www.linux.org/" target="_blank">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
+alt="Linux"/>
+</a>
+
+<a href="https://nginx.org/" target="_blank">
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"
+alt="Nginx"/>
+</a>
+
+<a href="https://code.visualstudio.com/" target="_blank">
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"
+alt="VS Code"/>
+</a>
 
 </p>
 
 ---
 
-## 📊 GitHub Stats
-
-<table>
-  <tr>
-    <td width="50%">
-      <img
-        src="https://github-readme-stats-fast.vercel.app/api?username=Aritpal15&show_icons=true&theme=onedark&hide_border=true&count_private=true"
-        alt="Aritpal's GitHub Stats"
-      />
-    </td>
-
-    <td width="50%">
-      <img
-        src="./streak.svg"
-        alt="Aritpal's GitHub Streak"
-      />
-    </td>
-  </tr>
-</table>
-
-<br>
+# 🌐 Connect With Me
 
 <p align="left">
-  <img
-    src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=onedark&hide_border=true&langs_count=6"
-    alt="Aritpal's Most Used Languages"
-  />
+
+<a href="https://github.com/Aritpal15" target="_blank">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+alt="GitHub"/>
+</a>
+
+<a href="https://www.linkedin.com/in/arit-pal-355918220/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+alt="LinkedIn"/>
+</a>
+
+<a href="https://dev.to/aritpal15" target="_blank">
+<img src="https://img.shields.io/badge/DEV.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"
+alt="DEV Community"/>
+</a>
+
+<a href="https://discord.com/users/aritpal_47526" target="_blank">
+<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
+alt="Discord"/>
+</a>
+
+<a href="https://developers.google.com/profile/u/112446710040001170551" target="_blank">
+<img src="https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white"
+alt="Google Developer Profile"/>
+</a>
+
+<a href="mailto:aritpal2000@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+alt="Email"/>
+</a>
+
 </p>
+
+---
+
+# 📊 GitHub Stats
+
+<p align="left">
+
+<img
+src="https://github-readme-stats-fast.vercel.app/api?username=Aritpal15&show_icons=true&theme=radical&hide_border=false&count_private=true"
+alt="Aritpal's GitHub Stats"
+/>
+
+</p>
+
+---
+
+# 🔥 GitHub Streak
+
+<p align="left">
+
+<img
+src="https://github-readme-streak-stats.herokuapp.com/?user=Aritpal15&theme=radical&hide_border=false"
+alt="Aritpal's GitHub Streak"
+/>
+
+</p>
+
+---
+
+# 💻 GitHub Contributions
+
+<p align="left">
+
+<img
+src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=radical&hide_border=false&langs_count=6"
+alt="Aritpal's Most Used Languages"
+/>
+
+</p>
+
+---
+
+# 📈 Contribution Stats
+
+<p align="left">
+
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=Aritpal15&theme=react-dark&hide_border=false"
+alt="Aritpal's Contribution Graph"
+/>
+
+</p>
+
+---
+
+<!-- 🐍 SNAKE ANIMATION -->
+<!-- Leave your existing snake configuration here.
+     We will modify/add the snake later. -->
 
 ---
 
 <p align="center">
-  <i>Open to learning, building and contributing.</i>
+  <i>Open to learning, building and contributing.</i> 
 </p>
