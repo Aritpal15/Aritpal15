@@ -1,59 +1,83 @@
-<h1 align="left">Hi 👋 I'm Arit Pal</h1>
+<div align="center">
 
-<h3 align="left">Cloud Computing | AWS | Python | Linux</h3>
+# Hi 👋, I'm Arit Pal
 
-<p align="left">
-I enjoy working with Linux, Python, and cloud services, and I like learning by building projects and trying things out.
+### Aspiring Cloud Engineer & Infrastructure Developer
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Cloud+Engineer+In+Training;AWS+%7C+Terraform+%7C+Docker+%7C+Linux;Automating+Infrastructure+with+CI%2FCD;Open+to+Fresher+Cloud+%26+DevOps+Opportunities" alt="Typing SVG" />
+</a>
+
+<br><br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Actively_Seeking_Cloud_Roles-00C853?style=for-the-badge" alt="Seeking Roles" />
+  <img src="https://img.shields.io/badge/Focus-AWS_%26_Cloud_Architecture-0288D1?style=for-the-badge" alt="Focus" />
 </p>
 
-<p align="left">
-I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Python, and Linux while looking for opportunities to start my career in cloud-focused roles.
-</p>
-
-- 🌍 Based in Bangalore, India
-- 📫 Reach me at <a href="mailto:aritpal2000@gmail.com">aritpal2000@gmail.com</a>
-- 🌱 Currently learning <b>AWS, Terraform, Docker, GitHub Actions, Python and Linux</b>
-- 🤝 Open to <b>cloud projects, open source, contributions and collaboration</b>
-- 💡 Always interested in learning from people with different backgrounds and experiences
+</div>
 
 ---
 
-# 🌐 Connect With Me
+### 👨‍💻 About Me
 
-<p align="left">
-<a href="https://discord.com/users/aritpal_47526" target="_blank">
-  <img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-</a>
-<a href="https://www.linkedin.com/in/arit-pal-355918220/" target="_blank">
-  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="https://github.com/Aritpal15" target="_blank">
-  <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<a href="https://dev.to/aritpal15" target="_blank">
-  <img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"/>
-</a>
-<a href="https://developers.google.com/profile/u/112446710040001170551" target="_blank">
-  <img src="https://img.shields.io/badge/GOOGLE_DEVELOPER-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer"/>
-</a>
-<a href="mailto:aritpal2000@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
+<pre><code>identity:
+  name: Arit Pal
+  role: Cloud & DevOps Aspirant
+  location: Bangalore, India
+focus_areas:
+  - Designing & deploying scalable AWS cloud infrastructure
+  - Provisioning infrastructure as code (IaC) via Terraform
+  - Containerizing applications using Docker & automating CI/CD pipelines
+  - Building resilient cloud backends using Python, FastAPI & Bash
+status:
+  open_to: Entry-level Cloud Engineer, Associate DevOps, Cloud Support roles
+  collaboration: Open source, cloud architecture experiments, infrastructure automation</code></pre>
+
+- 🌍 **Based in:** Bangalore, India
+- 🎯 **Target Roles:** Cloud Engineer (Fresher / Associate), DevOps Engineer (Trainee), Cloud Support Associate
+- 📫 **Contact:** <a href="mailto:aritpal2000@gmail.com">aritpal2000@gmail.com</a>
+- 🤝 **Collaboration:** Open to building hands-on AWS pipelines and open-source infrastructure projects
+
+---
+
+### 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/arit-pal-355918220/" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Aritpal15" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="mailto:aritpal2000@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://discord.com/users/aritpal_47526" target="_blank">
+    <img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  </a>
+  <a href="https://dev.to/aritpal15" target="_blank">
+    <img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"/>
+  </a>
+  <a href="https://developers.google.com/profile/u/112446710040001170551" target="_blank">
+    <img src="https://img.shields.io/badge/GOOGLE_DEVELOPER-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer"/>
+  </a>
 </p>
 
 ---
 
-# 🛠️ Tech Stack
+### 🛠️ Cloud & Development Stack
 
-<p align="left">
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,python,bash,django,fastapi,nginx,dynamodb,githubactions,git,docker,terraform,linux,vscode" />
-</a>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions,linux,bash,nginx&perline=7" /><br><br>
+    <img src="https://skillicons.dev/icons?i=python,fastapi,django,dynamodb,git,vscode,postman&perline=7" />
+  </a>
 </p>
 
 ---
 
-# 📊 GitHub Stats
+### 📊 GitHub Activity & Metrics
 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -61,7 +85,7 @@ I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Pyth
       <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Aritpal15&show_icons=true&theme=tokyonight&hide_border=false&border_radius=10&count_private=true" alt="Aritpal's GitHub Stats" />
     </td>
     <td align="center" valign="top">
-      <img src="https://streak-stats.demolab.com/?user=Aritpal15&theme=tokyonight&hide_border=false&border_radius=10" alt="Aritpal's GitHub Streak" />
+      <img src="./streak.svg" alt="Aritpal's GitHub Streak" />
     </td>
   </tr>
 </table>
@@ -74,15 +98,15 @@ I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Pyth
 
 ---
 
-# 📈 Contribution Activity
+### 📈 Daily Contribution Wave
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aritpal15&theme=react-dark&hide_border=false&area=true&custom_title=Aritpal's%20Contribution%20Graph" width="100%" alt="Aritpal's Activity Graph" />
+  <img src="https://activity-graph.herokuapp.com/graph?username=Aritpal15&theme=tokyo-night&area=true&hide_border=false&custom_title=Aritpal's%20Contribution%20Graph" width="100%" alt="Aritpal's Activity Graph" />
 </p>
 
 ---
 
-# 🐍 Contribution Snake
+### 🐍 Contribution Snake
 
 <p align="center">
   <picture>
@@ -94,8 +118,8 @@ I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Pyth
 
 ---
 
-<p align="center">
+<div align="center">
   <img src="https://komarev.com/ghpvc/?username=Aritpal15&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
   <br><br>
-  <i>Thanks for visiting!</i>
-</p>
+  <i>Always open to discussing cloud architecture, infrastructure automation, and new career opportunities.</i>
+</div>
