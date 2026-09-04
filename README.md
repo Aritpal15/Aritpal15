@@ -120,6 +120,8 @@ I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Pyth
 
 ---
 
+---
+
 # 📊 GitHub Stats
 
 <table>
@@ -128,7 +130,7 @@ I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Pyth
 <td width="50%" align="center">
 
 <img
-src="https://github-readme-stats.vercel.app/api?username=Aritpal15&show_icons=true&theme=radical&hide_border=false&border_radius=8&count_private=true"
+src="https://github-readme-stats.vercel.app/api?username=Aritpal15&show_icons=true&theme=radical&hide_border=false&border_radius=10&count_private=true"
 alt="Aritpal's GitHub Stats"
 />
 
@@ -137,7 +139,7 @@ alt="Aritpal's GitHub Stats"
 <td width="50%" align="center">
 
 <img
-src="https://streak-stats.demolab.com/?user=Aritpal15&theme=radical&hide_border=false&border_radius=8"
+src="https://streak-stats.demolab.com/?user=Aritpal15&theme=radical&hide_border=false&border_radius=10"
 alt="Aritpal's GitHub Streak"
 />
 
@@ -148,10 +150,12 @@ alt="Aritpal's GitHub Streak"
 
 <br>
 
+## 💻 Most Used Languages
+
 <p align="center">
 
 <img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=radical&hide_border=false&border_radius=8&langs_count=6&card_width=500"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=radical&hide_border=false&border_radius=10&langs_count=6&card_width=500"
 alt="Aritpal's Most Used Languages"
 />
 
@@ -159,11 +163,42 @@ alt="Aritpal's Most Used Languages"
 
 ---
 
-<!--
-🐍 GitHub Snake
-KEEP YOUR EXISTING SNAKE CODE HERE.
-We will redesign this later.
--->
+# 📈 Contribution Activity
+
+<p align="center">
+
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=Aritpal15&theme=react-dark&hide_border=false&area=true&custom_title=Aritpal's%20Contribution%20Graph"
+alt="Aritpal's GitHub Contribution Activity Graph"
+/>
+
+</p>
+
+---
+
+# 🐍 GitHub Contribution Snake
+
+<p align="center">
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./github-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./github-snake.svg"
+  />
+
+  <img
+    alt="GitHub Contribution Snake"
+    src="./github-snake.svg"
+  />
+
+</picture>
+
+</p>
 
 ---
 
