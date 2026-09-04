@@ -1,57 +1,214 @@
-Hi 👋 My name is Arit Pal
-=========================
+<h1 align="left">Hi 👋 I'm Arit Pal</h1>
 
-Cloud & DevOps Enthusiast | AWS Certified | MCA in Cloud Computing | Linux • Docker • AWS • Python
---------------------------------------------------------------------------------------------------
-
-MCA graduate specializing in cloud computing with a strong interest in cloud and DevOps technologies. Skilled in AWS, Linux, Docker, Git, and Python, I enjoy building scalable cloud solutions and continuously learning new technologies.
-
-* 🌍  I'm based in Bangalore, India
-* ✉️  You can contact me at [aritpal2000@gmail.com](mailto:aritpal2000@gmail.com)
-* 🧠  I'm currently learning AWS DevOps, Jenkins, Terraform, Docker, Linux Administration and Python
-* 👥  I'm looking to collaborate on Cloud Computing, AWS Projects, DevOps Projects and Open Source
+<h3 align="left">Cloud Computing | AWS | Python | Linux</h3>
 
 <p align="left">
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" alt="Python" title="Python" width="36" height="36" /></a><a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" alt="Git" title="Git" width="36" height="36" /></a><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash-colored.svg" alt="GNU Bash" title="GNU Bash" width="36" height="36" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" title="VS Code" width="36" height="36" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" alt="Linux" title="Linux" width="36" height="36" /></a><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" alt="Docker" title="Docker" width="36" height="36" /></a><a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored-dark.svg" alt="Django" title="Django" width="36" height="36" /></a><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored-dark.svg" alt="Amazon Web Services" title="Amazon Web Services" width="36" height="36" /></a>
+I'm an MCA graduate interested in cloud computing and AWS. I enjoy working with Linux, Python and cloud services, and I like learning by building projects and trying things out.
 </p>
 
-### Socials
+<p align="left">
+I'm currently building my skills in AWS, Terraform, Docker, GitHub Actions, Python and Linux while looking for opportunities to start my career in cloud-focused roles.
+</p>
 
-<p align="left"> <a href="https://www.github.com/Aritpal15" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a> <a href="https://www.dev.to/aritpal15" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="32" height="32" alt="DEV" title="DEV" /> </picture> </a> <a href="https://www.linkedin.com/in/arit-pal-355918220/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" title="LinkedIn" /> </picture> </a> <a href="https://discord.com/users/aritpal_47526" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" alt="Discord" title="Discord" /> </picture> </a></p>
-### Badges
+- 🌍 Based in Bangalore, India
+- 📫 Reach me at <a href="mailto:aritpal2000@gmail.com">aritpal2000@gmail.com</a>
+- 🌱 Currently learning <b>AWS, Terraform, Docker, GitHub Actions, Python and Linux</b>
+- 🤝 Open to <b>cloud projects, open source, contributions and collaboration</b>
+- 🌱 Always happy to learn from people with different backgrounds and experiences
 
-<b>My GitHub Stats</b>
-<br><br>
+---
 
-<table border="0" cellpadding="0" cellspacing="0">
+## 🛠️ Tech Stack
+
+### ☁️ Cloud
+
+<p align="left">
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored-dark.svg"
+         alt="AWS"
+         title="AWS"
+         width="42"
+         height="42"/>
+  </a>
+</p>
+
+### 💻 Languages & Frameworks
+
+<p align="left">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
+         alt="Python"
+         title="Python"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://www.gnu.org/software/bash/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash-colored.svg"
+         alt="Bash"
+         title="Bash"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://fastapi.tiangolo.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+         alt="FastAPI"
+         title="FastAPI"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://www.djangoproject.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored-dark.svg"
+         alt="Django"
+         title="Django"
+         width="42"
+         height="42"/>
+  </a>
+</p>
+
+### 🚀 Infrastructure & Tools
+
+<p align="left">
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg"
+         alt="Docker"
+         title="Docker"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://www.terraform.io/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+         alt="Terraform"
+         title="Terraform"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://github.com/features/actions" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"
+         alt="GitHub Actions"
+         title="GitHub Actions"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"
+         alt="Git"
+         title="Git"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://www.linux.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg"
+         alt="Linux"
+         title="Linux"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://nginx.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nginx-colored.svg"
+         alt="Nginx"
+         title="Nginx"
+         width="42"
+         height="42"/>
+  </a>
+
+  <a href="https://code.visualstudio.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg"
+         alt="VS Code"
+         title="VS Code"
+         width="42"
+         height="42"/>
+  </a>
+</p>
+
+---
+
+## 🌐 Connect with me
+
+<p align="left">
+
+  <a href="https://github.com/Aritpal15" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg"
+         width="36"
+         height="36"
+         alt="GitHub"
+         title="GitHub"/>
+  </a>
+
+  <a href="https://dev.to/aritpal15" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto-dark.svg"
+         width="36"
+         height="36"
+         alt="DEV Community"
+         title="DEV Community"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/arit-pal-355918220/" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg"
+         width="36"
+         height="36"
+         alt="LinkedIn"
+         title="LinkedIn"/>
+  </a>
+
+  <a href="https://discord.com/users/aritpal_47526" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord-dark.svg"
+         width="36"
+         height="36"
+         alt="Discord"
+         title="Discord"/>
+  </a>
+
+  <a href="https://developers.google.com/profile/u/112446710040001170551" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+         width="36"
+         height="36"
+         alt="Google Developer Program"
+         title="Google Developer Program"/>
+  </a>
+
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<table>
   <tr>
-    <!-- Left Card: Main Stats (Switched to stable mirror) -->
-    <td>
-      <a href="https://github.com/Aritpal15">
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=Aritpal15&show_icons=true&theme=onedark&hide_border=true&count_private=true" alt="Aritpal's GitHub stats" />
-      </a>
+    <td width="50%">
+      <img
+        src="https://github-readme-stats-fast.vercel.app/api?username=Aritpal15&show_icons=true&theme=onedark&hide_border=true&count_private=true"
+        alt="Aritpal's GitHub Stats"
+      />
     </td>
-    <!-- Uniform Gap Between Top Cards -->
-    <td width="20"></td>
-    <!-- Right Card: Streak Tracking (Stays on Heroku, working fine) -->
-    <td>
-<a href="https://github.com/Aritpal15">
-  <img src="./streak.svg" alt="Aritpal's GitHub streak" />
-</a>
+
+    <td width="50%">
+      <img
+        src="./streak.svg"
+        alt="Aritpal's GitHub Streak"
+      />
     </td>
   </tr>
 </table>
 
-<!-- Uniform Vertical Gap Before Bottom Row -->
 <br>
 
-<table border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <!-- Bottom Card: Most Used Languages (Switched to stable mirror) -->
-    <td>
-      <a href="https://github.com/Aritpal15">
-        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=onedark&hide_border=true" alt="Top Languages" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <img
+    src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=onedark&hide_border=true&langs_count=6"
+    alt="Aritpal's Most Used Languages"
+  />
+</p>
+
+---
+
+<p align="center">
+  <i>Open to learning, building and contributing.</i>
+</p>
