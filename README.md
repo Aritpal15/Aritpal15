@@ -2,17 +2,17 @@
 
 # Hi 👋, I'm Arit Pal
 
-### Aspiring Cloud Engineer & Infrastructure Developer
+### Aspiring Cloud & DevOps Engineer
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FACC15&center=true&vCenter=true&width=620&lines=Cloud+Engineer+In+Training;AWS+%7C+Terraform+%7C+Docker+%7C+Linux;Automating+Infrastructure+with+CI%2FCD;Open+to+Fresher+Cloud+%26+DevOps+Opportunities" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FACC15&center=true&vCenter=true&width=620&lines=Learning+Cloud+Computing+%26+DevOps;Hands-on+with+Linux+%7C+Docker+%7C+AWS;Automating+with+Python+%26+Bash;Open+to+Entry-Level+Cloud+Roles" alt="Typing SVG" />
 </a>
 
 <br><br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Actively_Seeking_Cloud_Roles-00C853?style=for-the-badge" alt="Seeking Roles" />
-  <img src="https://img.shields.io/badge/Focus-AWS_%26_Cloud_Architecture-FACC15?style=for-the-badge&logoColor=black" alt="Focus" />
+  <img src="https://img.shields.io/badge/Status-Actively_Looking_for_Fresher_Roles-00C853?style=for-the-badge" alt="Looking for Roles" />
+  <img src="https://img.shields.io/badge/Focus-Cloud_%26_DevOps_Basics-FACC15?style=for-the-badge&logoColor=black" alt="Focus" />
 </p>
 
 </div>
@@ -25,17 +25,14 @@
 <tr>
 <td>
 
-### 🚀 **Who I Am & What I Do**
-I am a **Cloud & DevOps Enthusiast** based in **Bangalore, India**, focused on building, deploying, and automating resilient infrastructure on **Amazon Web Services (AWS)**. 
+I'm an aspiring engineer passionate about cloud technologies and DevOps fundamentals. I spend my time learning by doing—building hands-on projects, deploying small applications, and understanding how modern systems run reliably.
 
-### 🎯 **Primary Focus Areas**
-* **Cloud Architecture:** Designing and deploying secure, highly available services across AWS.
-* **Infrastructure as Code (IaC):** Automated provisioning and state management using **Terraform**.
-* **Containerization & CI/CD:** Building lean **Docker** container environments and automating delivery pipelines via **GitHub Actions**.
-* **Backend Scripting:** Developing robust automation scripts and cloud backends with **Python**, **FastAPI**, and **Linux / Bash**.
+* **Cloud:** Learning core cloud fundamentals, compute, storage, and networking (primarily on AWS).
+* **Containers & DevOps:** Exploring **Docker** for containerization and **GitHub Actions** for simple CI/CD automation.
+* **Infrastructure as Code:** Practicing basic infrastructure provisioning with **Terraform**.
+* **Linux & Scripting:** Comfortable in the **Linux** command line, writing **Bash** scripts and **Python** for automation and backend APIs.
 
-### 💼 **Career Objective**
-Actively seeking entry-level and associate opportunities as a **Cloud Engineer**, **DevOps Trainee**, or **Cloud Support Associate**.
+Actively seeking entry-level opportunities as a **Fresher Cloud Engineer**, **DevOps Trainee**, or **Cloud Support Associate** where I can contribute and keep learning.
 
 </td>
 </tr>
@@ -44,9 +41,9 @@ Actively seeking entry-level and associate opportunities as a **Cloud Engineer**
 <br>
 
 * 🌍 **Location:** Bangalore, India
-* 🎯 **Open To:** Cloud Engineer, DevOps Engineer, Cloud Associate roles
+* 🎯 **Open To:** Fresher / Entry-Level Cloud Engineer, DevOps Trainee, Cloud Support Associate
 * 📫 **Direct Email:** <a href="mailto:aritpal2000@gmail.com">aritpal2000@gmail.com</a>
-* 🤝 **Open For:** Infrastructure automation, hands-on AWS pipelines, open-source collaboration
+* 🤝 **Open For:** Hands-on project collaboration, open-source contribution, open-source learning, and mentorship
 
 ---
 
@@ -75,11 +72,11 @@ Actively seeking entry-level and associate opportunities as a **Cloud Engineer**
 
 ---
 
-### 🛠️ Cloud & Development Stack
+### 🛠️ Tech Stack & Tools
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions,linux,bash,nginx&perline=7" /><br><br>
+    <img src="https://skillicons.dev/icons?i=aws,linux,bash,docker,githubactions,terraform,nginx&perline=7" /><br><br>
     <img src="https://skillicons.dev/icons?i=python,fastapi,django,dynamodb,git,vscode,postman&perline=7" />
   </a>
 </p>
@@ -107,14 +104,6 @@ Actively seeking entry-level and associate opportunities as a **Cloud Engineer**
 
 ---
 
-### 📈 Daily Contribution Wave
-
-<p align="center">
-  <img src="./activity-graph.svg" width="100%" alt="Aritpal's Activity Graph" />
-</p>
-
----
-
 ### 🐍 Contribution Snake
 
 <p align="center">
@@ -130,5 +119,5 @@ Actively seeking entry-level and associate opportunities as a **Cloud Engineer**
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Aritpal15&label=Profile%20Views&color=FACC15&style=flat" alt="Profile Views" />
   <br><br>
-  <i>Always open to discussing cloud architecture, infrastructure automation, and new career opportunities.</i>
+  <i>Always open to discussing cloud projects, learning opportunities, and entry-level roles.</i>
 </div>
