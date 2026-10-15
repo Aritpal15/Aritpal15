@@ -27,10 +27,10 @@
 
 I'm an aspiring engineer passionate about cloud technologies and DevOps fundamentals. I spend my time learning by doing—building hands-on projects, deploying small applications, and understanding how modern systems run reliably.
 
-* **Cloud:** Learning core cloud fundamentals, compute, storage, and networking (primarily on AWS).
-* **Containers & DevOps:** Exploring **Docker** for containerization and **GitHub Actions** for simple CI/CD automation.
-* **Infrastructure as Code:** Practicing basic infrastructure provisioning with **Terraform**.
-* **Linux & Scripting:** Comfortable in the **Linux** command line, writing **Bash** scripts and **Python** for automation and backend APIs.
+- **Cloud:** Learning core cloud fundamentals, compute, storage, and networking (primarily on AWS).
+- **Containers & DevOps:** Exploring **Docker** for containerization and **GitHub Actions** for simple CI/CD automation.
+- **Infrastructure as Code:** Practicing basic infrastructure provisioning with **Terraform**.
+- **Linux & Scripting:** Comfortable in the **Linux** command line, writing **Bash** scripts and **Python** for automation and backend APIs.
 
 Actively seeking entry-level opportunities as a **Fresher Cloud Engineer**, **DevOps Trainee**, or **Cloud Support Associate** where I can contribute and keep learning.
 
@@ -40,10 +40,10 @@ Actively seeking entry-level opportunities as a **Fresher Cloud Engineer**, **De
 
 <br>
 
-* 🌍 **Location:** Bangalore, India
-* 🎯 **Open To:** Fresher / Entry-Level Cloud Engineer, DevOps Trainee, Cloud Support Associate
-* 📫 **Direct Email:** <a href="mailto:aritpal2000@gmail.com">aritpal2000@gmail.com</a>
-* 🤝 **Open For:** Hands-on project collaboration, open-source contribution, open-source learning, and mentorship
+- 🌍 **Location:** Bangalore, India
+- 🎯 **Open To:** Fresher / Entry-Level Cloud Engineer, DevOps Trainee, Cloud Support Associate
+- 📫 **Direct Email:** <a href="mailto:aritpal2000@gmail.com">aritpal2000@gmail.com</a>
+- 🤝 **Open For:** Hands-on project collaboration, open-source contribution, open-source learning, and mentorship
 
 ---
 
@@ -83,23 +83,10 @@ Actively seeking entry-level opportunities as a **Fresher Cloud Engineer**, **De
 
 ---
 
-### 📊 GitHub Activity & Metrics
-
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="center" valign="top">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Aritpal15&show_icons=true&theme=highcontrast&hide_border=false&border_radius=10&count_private=true" alt="Aritpal's GitHub Stats" />
-    </td>
-    <td align="center" valign="top">
-      <img src="./streak.svg" alt="Aritpal's GitHub Streak" />
-    </td>
-  </tr>
-</table>
-
-<br>
+### 🕹️ Developer Dashboard
 
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Aritpal15&layout=compact&theme=highcontrast&hide_border=false&border_radius=10&langs_count=6&card_width=450" alt="Aritpal's Most Used Languages" />
+  <img src="./assets/developer-dashboard.gif" alt="Arit Pal Developer Dashboard" width="100%" />
 </p>
 
 ---
