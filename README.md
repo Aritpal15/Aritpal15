@@ -86,7 +86,7 @@ Actively seeking entry-level opportunities as a **Fresher Cloud Engineer**, **De
 ### 🕹️ Developer Dashboard
 
 <p align="center">
-  <img src="./assets/developer-dashboard.gif" alt="Arit Pal Developer Dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/Aritpal15/Aritpal15/main/assets/developer-dashboard.gif" alt="Arit Pal Developer Dashboard" width="100%" />
 </p>
 
 ---
