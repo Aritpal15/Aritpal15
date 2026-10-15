@@ -93,10 +93,13 @@ def fetch_github_metrics():
 def render_dashboard(metrics):
     """Renders metrics onto the dashboard frames and outputs the animated GIF."""
     os.makedirs("assets", exist_ok=True)
-    base_frame_path = "scripts/assets/base_dashboard.png"
-
-    if os.path.exists(base_frame_path):
-        base_img = Image.open(base_frame_path).convert("RGBA")
+    if os.path.exists("scripts/base_dashboard.png"):
+  base_img = Image.open("scripts/base_dashboard.png").convert("RGBA")
+elif os.path.exists("scripts/assets/base_dashboard.png"):
+  base_img = Image.open("scripts/assets/base_dashboard.png").convert("RGBA")
+else:
+  # Fallback procedural template if base image is not present
+  base_img = Image.new("RGBA", (1280, 560), (11, 14, 20, 255))
     else:
         # Fallback procedural template if base image is not present
         base_img = Image.new("RGBA", (1280, 560), (11, 14, 20, 255))
