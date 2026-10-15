@@ -10,7 +10,7 @@ HEADERS = {"Authorization": f"Bearer {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
 
 def get_pixel_font(size=14):
-    """Loads an authentic retro pixel font (Silkscreen) for crisp HUD text."""
+    """Loads a crisp retro pixel font (Silkscreen) for authentic HUD text."""
     font_path = "scripts/Silkscreen-Regular.ttf"
     if not os.path.exists(font_path):
         font_url = "https://raw.githubusercontent.com/google/fonts/main/ofl/silkscreen/Silkscreen-Regular.ttf"
@@ -31,7 +31,7 @@ def get_pixel_font(size=14):
 
 
 def fetch_github_metrics():
-    """Fetches real-time GitHub user statistics and language breakdown."""
+    """Fetches real-time GitHub user statistics."""
     query = """
     query($login: String!) {
       user(login: $login) {
@@ -39,14 +39,6 @@ def fetch_github_metrics():
           totalCount
           nodes {
             stargazerCount
-            languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
-              edges {
-                size
-                node {
-                  name
-                }
-              }
-            }
           }
         }
         pullRequests {
@@ -64,7 +56,7 @@ def fetch_github_metrics():
     """
     fallback_metrics = {
         "stars": 37,
-        "commits": 267,
+        "commits": 275,
         "prs": 48,
         "issues": 31,
     }
@@ -92,17 +84,59 @@ def fetch_github_metrics():
         total_prs = user_data.get("pullRequests", {}).get("totalCount", 0)
         total_issues = user_data.get("issues", {}).get("totalCount", 0)
 
-        print(f"Live GitHub Data Fetched: Stars={total_stars}, Commits={total_commits}, PRs={total_prs}, Issues={total_issues}")
-
         return {
             "stars": total_stars if total_stars > 0 else 37,
-            "commits": total_commits if total_commits > 0 else 267,
+            "commits": total_commits if total_commits > 0 else 275,
             "prs": total_prs if total_prs > 0 else 48,
             "issues": total_issues if total_issues > 0 else 31,
         }
     except Exception as e:
-        print(f"Error fetching live data: {e}")
+        print(f"Using fallback data: {e}")
         return fallback_metrics
+
+
+def apply_lamp_glow(frame, intensity):
+    """Blends a soft, natural ambient pulse under the desk lamp."""
+    w, h = frame.size
+    cx, cy = int(0.785 * w), int(0.810 * h)
+    radius_x = int(0.125 * w)
+    radius_y = int(0.080 * h)
+
+    mask = Image.new("L", (w, h), 0)
+    m_draw = ImageDraw.Draw(mask)
+
+    # Concentric smooth falloff
+    steps = 12
+    for s in range(steps, 0, -1):
+        factor = s / steps
+        rx = int(radius_x * factor)
+        ry = int(radius_y * factor)
+        alpha = int(intensity * (1.0 - factor) * 85)
+        m_draw.ellipse([cx - rx, cy - ry, cx + rx, cy + ry], fill=alpha)
+
+    amber_glow = Image.new("RGBA", (w, h), (255, 195, 60, 255))
+    return Image.composite(amber_glow, frame, mask)
+
+
+def apply_cat_breathing(frame, shift_y):
+    """Subtly elevates the cat's back to simulate authentic sleeping breath."""
+    if shift_y == 0:
+        return frame
+
+    w, h = frame.size
+    x1, y1 = int(0.680 * w), int(0.772 * h)
+    x2, y2 = int(0.742 * w), int(0.822 * h)
+
+    cat_patch = frame.crop((x1, y1, x2, y2))
+    pw, ph = cat_patch.size
+
+    mask = Image.new("L", (pw, ph), 0)
+    m_draw = ImageDraw.Draw(mask)
+    m_draw.ellipse([2, 2, pw - 2, ph - 2], fill=210)
+
+    result = frame.copy()
+    result.paste(cat_patch, (x1, y1 - shift_y), mask)
+    return result
 
 
 def render_dashboard(metrics):
@@ -120,100 +154,92 @@ def render_dashboard(metrics):
         return
 
     base_img = Image.open(base_path).convert("RGBA")
-    width, height = base_img.size
+    w, h = base_img.size
 
-    # Responsive scaling based on original reference resolution (1920x820)
-    sx = width / 1920.0
-    sy = height / 820.0
+    font_stats = get_pixel_font(size=max(12, int(0.021 * h)))
+    font_exp = get_pixel_font(size=max(10, int(0.015 * h)))
 
-    # Load pixel font
-    font_stats = get_pixel_font(size=max(12, int(15 * sy)))
-    font_badge = get_pixel_font(size=max(10, int(11 * sy)))
-
-    # Color definitions
-    hud_bg = (11, 15, 23, 255)       # Matches the dark HUD card background
-    amber = (250, 204, 21, 255)      # Retro amber/yellow
-    white = (248, 250, 252, 255)     # Clean stats white
-    cyan = (56, 189, 248, 255)       # Terminal blue/cyan
+    # HUD Card Background color
+    hud_bg = (12, 16, 24, 255)
+    white = (248, 250, 252, 255)
+    amber = (250, 204, 21, 255)
+    cyan = (56, 189, 248, 255)
     green_bright = (74, 222, 128, 255)
-    green_dark = (22, 101, 52, 255)
-    red_beacon = (239, 68, 68, 255)
+    dark_slate = (9, 20, 26, 255)
+
+    # Clean base image with accurate live metrics
+    live_base = base_img.copy()
+    draw_base = ImageDraw.Draw(live_base)
+
+    # Exact slot coordinates for the GITHUB STATISTICS box
+    stat_slots = [
+        # (y_center_pct, value)
+        (0.262, str(metrics["stars"])),
+        (0.312, str(metrics["commits"])),
+        (0.362, str(metrics["prs"])),
+        (0.412, str(metrics["issues"])),
+    ]
+
+    val_x1 = int(0.322 * w)
+    val_x2 = int(0.364 * w)
+
+    for y_pct, val_str in stat_slots:
+        y1 = int((y_pct - 0.016) * h)
+        y2 = int((y_pct + 0.016) * h)
+        draw_base.rectangle([val_x1, y1, val_x2, y2], fill=hud_bg)
+        draw_base.text((val_x1 + int(0.005 * w), y1 + 1), val_str, fill=white, font=font_stats)
+
+    # EXP Bar update under A+ badge
+    exp_x1 = int(0.378 * w)
+    exp_y1 = int(0.432 * h)
+    exp_x2 = int(0.448 * w)
+    exp_y2 = int(0.455 * h)
+    draw_base.rectangle([exp_x1, exp_y1, exp_x2, exp_y2], fill=hud_bg)
+    draw_base.text((exp_x1 + 2, exp_y1 + 1), f"EXP {metrics['commits']} / 500", fill=amber, font=font_exp)
 
     num_frames = 6
     frames = []
 
-    # Prepare base stats frame with live metrics drawn once
-    live_base = base_img.copy()
-    draw_base = ImageDraw.Draw(live_base)
-
-    # 1. Update Live Numbers (Total Stars, Commits, PRs, Issues)
-    # Each tuple: (clear_x1, clear_y1, clear_x2, clear_y2, text_x, text_y, text_val)
-    stat_slots = [
-        # Total Stars
-        (int(615 * sx), int(268 * sy), int(680 * sx), int(295 * sy), str(metrics["stars"])),
-        # Total Commits
-        (int(615 * sx), int(305 * sy), int(680 * sx), int(332 * sy), str(metrics["commits"])),
-        # Pull Requests
-        (int(615 * sx), int(342 * sy), int(680 * sx), int(369 * sy), str(metrics["prs"])),
-        # Total Issues
-        (int(615 * sx), int(379 * sy), int(680 * sx), int(406 * sy), str(metrics["issues"])),
-    ]
-
-    for x1, y1, x2, y2, val_str in stat_slots:
-        # Clear only the exact old number area with the HUD background color
-        draw_base.rectangle([x1, y1, x2, y2], fill=hud_bg)
-        # Draw live value with right alignment
-        draw_base.text((x1 + int(10 * sx), y1 + int(2 * sy)), val_str, fill=white, font=font_stats)
-
-    # 2. Update EXP Bar under A+ Badge
-    exp_x1 = int(700 * sx)
-    exp_y1 = int(420 * sy)
-    exp_x2 = int(840 * sx)
-    exp_y2 = int(440 * sy)
-    draw_base.rectangle([exp_x1, exp_y1, exp_x2, exp_y2], fill=hud_bg)
-    draw_base.text((exp_x1 + int(5 * sx), exp_y1 + int(2 * sy)), f"EXP {metrics['commits']} / 500", fill=amber, font=font_badge)
-
-    # Build animated frames
     for f_idx in range(num_frames):
-        frame = live_base.copy()
+        # 1. Cat Breathing Cycle (0 -> 1 -> 2 -> 2 -> 1 -> 0 pixels)
+        cat_shift = [0, 1, 2, 2, 1, 0][f_idx]
+        frame = apply_cat_breathing(live_base, cat_shift)
+
+        # 2. Desk Lamp Flickering Ambient Glow
+        lamp_intensity = [0.2, 0.5, 0.8, 1.0, 0.6, 0.3][f_idx]
+        frame = apply_lamp_glow(frame, lamp_intensity)
+
         draw = ImageDraw.Draw(frame)
 
-        # -------------------------------------------------------------
-        # Animation A: Skyline Aviation Warning Beacons (Blinking)
-        # -------------------------------------------------------------
-        if f_idx % 2 == 0:
-            bx1 = int(723 * sx)
-            by1 = int(488 * sy)
-            draw.rectangle([bx1, by1, bx1 + int(3 * sx), by1 + int(3 * sy)], fill=red_beacon)
-
-            bx2 = int(1062 * sx)
-            by2 = int(432 * sy)
-            draw.rectangle([bx2, by2, bx2 + int(3 * sx), by2 + int(3 * sy)], fill=amber)
-
-        # -------------------------------------------------------------
-        # Animation B: Online Status LED (Subtle glow pulse)
-        # -------------------------------------------------------------
-        led_color = green_bright if f_idx in (0, 1, 2) else green_dark
-        led_x = int(168 * sx)
-        led_y = int(225 * sy)
-        draw.ellipse([led_x, led_y, led_x + int(8 * sx), led_y + int(8 * sy)], fill=led_color)
-
-        # -------------------------------------------------------------
-        # Animation C: Center Monitor Terminal Cursor (Blink)
-        # -------------------------------------------------------------
+        # 3. Center Monitor Terminal Cursor (Blink on frames 0, 1, 2)
         if f_idx in (0, 1, 2):
-            cur_x = int(875 * sx)
-            cur_y = int(595 * sy)
-            draw.rectangle([cur_x, cur_y, cur_x + int(4 * sx), cur_y + int(8 * sy)], fill=cyan)
+            cur_x = int(0.485 * w)
+            cur_y = int(0.708 * h)
+            draw.rectangle([cur_x, cur_y, cur_x + int(0.003 * w), cur_y + int(0.010 * h)], fill=cyan)
 
-        # -------------------------------------------------------------
-        # Animation D: Right Monitor Network Telemetry (Activity wave)
-        # -------------------------------------------------------------
-        for bar_i in range(8):
-            var_h = ((bar_i * 3 + f_idx * 4) % 12) * sy
-            tx = int((1160 + bar_i * 9) * sx)
-            ty = int(625 * sy) - int(var_h)
-            draw.rectangle([tx, ty, tx + int(5 * sx), int(627 * sy)], fill=green_bright)
+        # 4. Right Monitor Jumping Network Telemetry Equalizer
+        rx1 = int(0.578 * w)
+        rx2 = int(0.662 * w)
+        ry_top = int(0.724 * h)
+        ry_bottom = int(0.762 * h)
+        draw.rectangle([rx1, ry_top, rx2, ry_bottom], fill=dark_slate)
+
+        bar_count = 14
+        step_w = (rx2 - rx1) / bar_count
+        bar_heights = [
+            [6, 12, 18, 10, 14, 22, 16, 8, 14, 20, 12, 16, 24, 10],
+            [10, 16, 12, 18, 8, 16, 22, 14, 10, 14, 18, 22, 16, 14],
+            [14, 8, 22, 12, 18, 10, 14, 20, 16, 24, 10, 14, 8, 18],
+            [18, 14, 10, 22, 14, 8, 18, 12, 22, 16, 14, 8, 20, 12],
+            [12, 20, 16, 8, 22, 14, 10, 16, 12, 10, 22, 18, 12, 16],
+            [8, 10, 14, 16, 12, 20, 8, 22, 18, 12, 16, 10, 14, 20],
+        ][f_idx]
+
+        for b_i, b_h in enumerate(bar_heights):
+            scaled_h = int((b_h / 26.0) * (ry_bottom - ry_top))
+            bx = int(rx1 + (b_i * step_w))
+            bw = max(2, int(step_w - 2))
+            draw.rectangle([bx, ry_bottom - scaled_h, bx + bw, ry_bottom], fill=green_bright)
 
         frames.append(frame.convert("P", palette=Image.ADAPTIVE))
 
@@ -222,11 +248,11 @@ def render_dashboard(metrics):
         output_path,
         save_all=True,
         append_images=frames[1:],
-        duration=400,
+        duration=350,
         loop=0,
         optimize=True,
     )
-    print(f"Successfully rendered dashboard with live metrics to {output_path}")
+    print(f"Successfully generated clean animated dashboard at {output_path}")
 
 
 if __name__ == "__main__":
